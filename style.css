@@ -64,7 +64,7 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-    background-image: url(src/img/2.jpg);
+    background-image: url(src/img/2.png);
 
     /* Set a specific height */
     min-height: 950px;
@@ -75,6 +75,7 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     margin-top: -120px;
+    overflow: hidden;
 }
 
 .jumbotron .display-4 {
@@ -120,7 +121,7 @@ hr.new {
 
 .parallax {
     /* The image used */
-    background-image: url(src/img/3.jpg);
+    background-image: url(src/img/3.png);
 
     /* Set a specific height */
     min-height: 500px;
@@ -130,6 +131,7 @@ hr.new {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     padding: 2rem 1rem;
     margin-bottom: 2rem;
 }
